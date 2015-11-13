@@ -11,4 +11,4 @@ cut -d$'\t' -f1-100,1000-1005 infile.csv > outfile.csv  #cut rows in tab demimit
 1. cut rows
 2. sort files by chromosome position using sort command
 3. join the two files using the join command
-   
+4. have a nice day
