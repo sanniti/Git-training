@@ -1,0 +1,14 @@
+cd..
+awk ' {print $0} ' #print certain columns
+merge file names
+
+
+cut -d " " -f1-100,1000-1005 infile.csv > outfile.csv  #cut rows in space delimited files
+
+cut -d$'\t' -f1-100,1000-1005 infile.csv > outfile.csv  #cut rows in tab demimited files
+
+
+1. cut rows
+2. sort files by chromosome position using sort command
+3. join the two files using the join command
+   
